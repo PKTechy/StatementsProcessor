@@ -1,0 +1,20 @@
+{
+  "name": "fileprocessor",
+  "version": "1.0.0",
+  "description": "Service to process uploaded files",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Pradeep Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}

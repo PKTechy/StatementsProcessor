@@ -1,0 +1,20 @@
+{
+  "name": "alerting",
+  "version": "1.0.0",
+  "description": "Alerting Service",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Pradeep Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "awaitify-stream": "^1.0.2",
+    "csvtojson": "^2.0.10"
+  }
+}
